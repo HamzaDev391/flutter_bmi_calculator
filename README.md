@@ -1,16 +1,53 @@
-# smart_bmi_app
+# BMI Calculator 💪
 
-A new Flutter project.
+A clean and interactive BMI (Body Mass Index) Calculator built with Flutter.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🔐 Login screen with name and age validation using RegEx
+- ⚖️ Unit selection for weight (kg/lbs) and height (cm/feet/inches)
+- 🔄 Automatic conversion to metric for BMI formula
+- 📊 Color-coded BMI category with Report Screen
+- 🧠 Uses `StatefulWidget`, `Navigator.push()`, `TextEditingController`
+- 🎨 Clean, responsive UI (blue-themed buttons, white text, black report)
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `main.dart`: Entry point
+- `login_screen.dart`: Validates name/age
+- `calculator_screen.dart`: Input + conversion
+- `report_screen.dart`: Shows BMI result and category
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+---
+
+## 👨‍💻 Tech Stack
+
+- Flutter (Dart)
+- RegEx Validation
+- StatelessWidget / StatefulWidget
+- Navigator for screen transitions
+
+---
+
+## 🛠️ How to Run
+
+1. Clone the repo  
+   `git clone https://github.com/YOUR_USERNAME/flutter_bmi_calculator.git`
+
+2. Navigate into the project  
+   `cd flutter_bmi_calculator`
+
+3. Get dependencies  
+   `flutter pub get`
+
+4. Run the app  
+   `flutter run`
+
+---
+
+## 📌 License
+
+This project is open for learning purposes. No license required.
+
