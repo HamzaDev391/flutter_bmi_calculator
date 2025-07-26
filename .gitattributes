@@ -1,10 +1,13 @@
-*.dart linguist-language=Dart
-*.cpp linguist-detectable=false
-*.c linguist-detectable=false
-*.h linguist-detectable=false
-CMakeLists.txt linguist-detectable=false
-*.cmake linguist-detectable=false
-*.swift linguist-detectable=false
-*.html linguist-detectable=false
-*.js linguist-detectable=false
-*.css linguist-detectable=false
+# Ignore platform-specific folders for language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
+
+# Keep only Dart-relevant code
+lib/** linguist-language=Dart
+test/** linguist-language=Dart
+# Ignore generated files
+lib/generated/** linguist-generated
